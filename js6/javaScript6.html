@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <script src="js6.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <title>Precios de Pizzas</title>
+    </head>
+    <body>
+    <h2>Seleccionar Pizza</h2>
+    <form>
+        <label for="pizzas">Elige una pizza:</label>
+        <select id="pizzas" onchange="mostrarPrecio()">
+        <option value="">-- Selecciona --</option>
+        <option value="jyq">Jamón y Queso</option>
+        <option value="muzza">Muzzarella</option>
+        <option value="morrones">Morrones</option>
+        </select>
+        <br><br>
+        <label for="precio">Precio:</label>
+        <input type="text" id="precio" readonly>
+    </form>
+    </body>
+</html>

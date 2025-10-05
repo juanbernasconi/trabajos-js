@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <script src="js8.js"></script>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Examen Múltiple Choice</title>
+    </head>
+
+    <body>
+        <h2>Examen Múltiple Choice</h2>
+
+        <p>1. ¿Cuál es el lenguaje que se ejecuta en el navegador?</p>
+        <select id="p1">
+            <option value="a">Python</option>
+            <option value="b">JavaScript</option>
+            <option value="c">C++</option>
+            <option value="d">Java</option>
+        </select>
+
+        <p>2. ¿Qué etiqueta se usa para un párrafo en HTML?</p> 
+        <select id="p2"> //&lt y &gt son para que se vea el simbolo < y >
+            <option value="a">&lt;div&gt;</option>
+            <option value="b">&lt;h1&gt;</option>
+            <option value="c">&lt;p&gt;</option> 
+            <option value="d">&lt;span&gt;</option>
+        </select>
+
+        <p>3. ¿Cuál es el resultado de 2 + 2?</p>
+        <select id="p3">
+            <option value="a">4</option>
+            <option value="b">22</option>
+            <option value="c">5</option>
+            <option value="d">3</option>
+        </select>
+
+        <p>4. ¿Qué propiedad de CSS cambia el color del texto?</p>
+        <select id="p4">
+            <option value="a">background-color</option>
+            <option value="b">font-size</option>
+            <option value="c">border</option>
+            <option value="d">color</option>
+        </select>
+
+        <br><br>
+        <button type="button" onclick="corregirExamen()">Corregir</button>
+
+        <h3 id="resultado"></h3>
+    </body>
+</html>

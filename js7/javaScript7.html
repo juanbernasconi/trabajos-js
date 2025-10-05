@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <script src="js7.js"></script>
+    <head>
+    <meta charset="UTF-8">
+    <title>Presupuesto de PC</title>
+    </head>
+
+    <body>
+       <h2>Generar Presupuesto de PC</h2>
+        <form>
+            <label>Procesador:</label>
+            <select id="procesador">
+            <option value="40000">Intel I3 - $40000</option>
+            <option value="60000">Intel I5 - $60000</option>
+            <option value="80000">Intel I7 - $80000</option>
+            </select>
+            <br><br>
+
+            <label>Monitor:</label>
+            <select id="monitor">
+            <option value="250000">Samsung 20' - $250000</option>
+            <option value="350000">Samsung 22' - $350000</option>
+            <option value="550000">Samsung 26' - $550000</option>
+            </select>
+            <br><br>
+
+            <label>Disco Duro:</label>
+            <select id="disco">
+            <option value="300000">500 Gb - $300000</option>
+            <option value="440000">1 Tb - $440000</option>
+            <option value="500000">3 Tb - $500000</option>
+            </select>
+            <br><br>
+
+            <button type="button" onclick="calcularPresupuesto()">Calcular</button>
+            <br><br>
+
+            <label>Total:</label>
+            <input type="text" id="total" readonly>
+        </form>
+    </body>
+</html>
